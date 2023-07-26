@@ -49,8 +49,53 @@ a{
     font-family: "teko";
     font-weight: 700;
 }
-.d-block w-100{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
+.nosotros{
+    background-color: black;
+}
+
+.titulo{
+    display:flex;
+    background-color: grey;
+}
+.box1{
+    display: flex;
+    background-color: brown;
+    width: 40%;
+    height: 40%;
+    justify-content:left;
+    justify-items: center;
+}
+h1{
+    font-family: "teko";
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+}
+p{
+    font-family: "teko";
+    font-weight: 500;
+    color: white
+}
+h3{
+    font-family: "teko";
+    font-weight: 500;
+    color: grey;
+}
+.box2{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    overflow: hidden;
+    background-color: aqua;
+    width: 40%;
+    height: 40%;
+
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: cornflowerblue;
+    width: 40%;
+    height: 40%;
 }
