@@ -80,12 +80,6 @@ a{
     display:flex;
     background-color: grey;
 }
-.box1{
-    display: flex;
-    background-color: brown;
-    width: 100%;
-    
-}
 h1{
     font-family: "teko";
     font-weight: 700;
@@ -93,29 +87,33 @@ h1{
     color: black;
     
 }
+.conteiner{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+h3{
+    font-family: "teko";
+    font-weight: 500;
+    color: grey;    
+}
 p{
     font-family: "teko";
     font-weight: 500;
     color: white
 }
-h3{
-    font-family: "teko";
-    font-weight: 500;
-    color: grey;
+.box1{
+    display: flex;
+    background-color: brown;
+    width: 100%;
 }
 .box2{
     display: flex;
-    justify-content:center;
-    justify-items: center;
-    overflow: hidden;
     background-color: aqua;
     width:100%
-
 }
 .box3{
     display: flex;
-    justify-content: center;
-    justify-items: center;
     background-color: cornflowerblue;
     width: 100%
     
