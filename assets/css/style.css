@@ -1,4 +1,4 @@
-body {
+.fondo-principal {
     background-image: url(../img/ruta2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,16 +83,15 @@ a{
 .box1{
     display: flex;
     background-color: brown;
-    width: 34%;
-    height: 50px;
-    justify-content:left;
-    justify-items: center;
+    width: 100%;
+    
 }
 h1{
     font-family: "teko";
     font-weight: 700;
     font-size: larger;
     color: black;
+    
 }
 p{
     font-family: "teko";
@@ -110,8 +109,7 @@ h3{
     justify-items: center;
     overflow: hidden;
     background-color: aqua;
-    width: 34%;
-    height: 50px;
+    width:100%
 
 }
 .box3{
@@ -119,6 +117,6 @@ h3{
     justify-content: center;
     justify-items: center;
     background-color: cornflowerblue;
-    width: 34%;
-    height: 50px;
+    width: 100%
+    
 }
