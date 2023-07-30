@@ -1,5 +1,8 @@
+body{
+    background-color: black;
+}
 .fondo-principal {
-    background-image: url(../img/ruta2.jpg);
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,21 +33,16 @@ img {
     src: url("../font/Teko-Medium.ttf");
     font-weight: 500;
 }
-.menu{
-    display: flex;
-    padding: 10px,20px;
+.navbar{
+    background-color: gray;
+    border: solid white;
+    width: 100%;
 }
-ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    cursor: pointer;
-    }
-li:hover{
-    background-color:grey;
-    border-radius:10px
+.navbar-collapse{
+    flex-grow: 0;
+    text-align: end;
 }
-a{
+.nav-link {
     color: white;
     font-family: "teko";
     font-weight: 700;
@@ -77,44 +75,100 @@ a{
 }
 
 .titulo{
-    display:flex;
-    background-color: grey;
+    display: flexbox;
+    
 }
 h1{
     font-family: "teko";
     font-weight: 700;
     font-size: larger;
-    color: black;
+    color: white;
+    border: solid yellow;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
     
+}
+.titulo p{
+    text-align: center
 }
 .conteiner{
     display: flex;
-    justify-content: center;
-    justify-items: center;
+    
+}
+.row{
+    display: flexbox;
+    margin: 10px;
+    padding: 10px;
 }
 h3{
     font-family: "teko";
     font-weight: 500;
-    color: grey;    
+    color: black;   
+    background-color: gold;
+    text-align: center; 
+    border: solid white
 }
 p{
     font-family: "teko";
     font-weight: 500;
-    color: white
+    color: white;
+    text-align: center;
 }
 .box1{
-    display: flex;
-    background-color: brown;
+    display: flexbox;
+    background-image: url(../img/mision.png);
+    background-size: cover;
+    background-position: center;
     width: 100%;
+
 }
 .box2{
-    display: flex;
-    background-color: aqua;
-    width:100%
+    display: flexbox;
+    background-image: url(../img/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+
 }
 .box3{
-    display: flex;
-    background-color: cornflowerblue;
-    width: 100%
+    display: flexbox;
+    background-image: url(../img/valores.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     
+}
+
+.beneficios {
+    background-color: black;
+}
+.contacto{
+    background-color: black;
+}
+.kempes{
+    background-color: black;
+}
+.paquetes{
+    background-color: black;
+}
+.planea-tu-viaje{
+    background-color: black;
+
+}
+
+@media (min-whitd:414px) and (max-whitd:1200px) {
+    img { 
+        width: 50px;
+        height: 50px; }
+
+    .carousel-inner{
+        width:100px;
+        height: 200px;
+    }
+    .carousel-inner img{
+        width: 10px;
+        height: 50px;
+    }
+
 }

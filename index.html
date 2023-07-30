@@ -13,22 +13,25 @@
 
 <body class="fondo-principal">
   <header>
-      <nav class="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/logo.png" alt="turisimo-creere" width="30" height="24">
-          </a>
-        </div>
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand"> <img src="./assets/img/logo.png" alt="logo" width="10px" height="10px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page"></a>
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./pages/beneficios.html">Beneficios</a>
+                <a class="nav-link" href="./pages/planea-tu-viaje.html">Planea tu viaje</a>
+                <a class="nav-link" href="./pages/paquetes.html">Paquetes</a>
+                <a class="nav-link" href="./pages/kempes.html">Kempes</a>
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
       </nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="./pages/nosotros.html">Nosotros</li>
-        <li class="nav-item"><a href="./pages/beneficios.html">Beneficios</a></li>
-        <li class="nav-item"><a href="./pages/kempes.html">Kempes</a></li>
-        <li class="nav-item"><a href="./pages/paquetes.html">Paquetes</a></li>
-        <li class="nav-item"><a href="./pages/planea-tu-viaje.html">Planea tu viaje</a></li>
-        <li class="nav-item"><a href="./pages/contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
   </header>
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -39,21 +42,21 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/img/Foto1.jpeg" class="d-block w-100" alt="foto1">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <h5>Salidas Semanales</h5>
           <p>La vida es un viaje y quien viaja vive dos veces</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/grupo1.jpg" class="d-block w-100" alt="foto2" >
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <h5>Traslados</h5>
           <p>Disfruta de todo el turismo y excursiones que ofrecemos en la cuidad de Cordoba</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/grupo2.jpg" class="d-block w-100" alt="foto3">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <h5>Excursiones</h5>
           <p>Aventuras a tu alcance</p>
         </div>
@@ -78,6 +81,7 @@
   </footer>
   
 <script src="./assets/js/bootstrap.min.js"></script> 
+<script src="./assets/js/bootstrap.js"></script>
 </body>
 </html>
 
