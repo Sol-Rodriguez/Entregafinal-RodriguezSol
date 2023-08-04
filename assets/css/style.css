@@ -1,22 +1,15 @@
-body{
-    background-color: black;
-}
-.fondo-principal {
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 header{
     display: flex;
     justify-content:space-between;  
     align-items: center;
 }
-img {
+.logo {
     width: 150px;
     height: 150px;
     display: flex;
     padding: 20px;
+    border-radius: 100px;
+    
 }
 @font-face {
     font-family:"teko";
@@ -33,9 +26,53 @@ img {
     src: url("../font/Teko-Medium.ttf");
     font-weight: 500;
 }
+@font-face {
+    font-family: "roboto";
+    src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-ThinItalic.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family:"JosefinSans";
+    src: url(../font/JosefinSans-BoldItalic.ttf);
+    font-weight: 700;
+}
+.fondo-principal {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .navbar{
-    background-color: gray;
-    border: solid white;
+    background-color: black;
     width: 100%;
 }
 .navbar-collapse{
@@ -44,53 +81,175 @@ img {
 }
 .nav-link {
     color: white;
-    font-family: "teko";
-    font-weight: 700;
+    font-family: "JosefinSans";
+    font-weight: 500;
 }
-.carousel-inner {
-    width: 100%;
-    height: 100%;
-    padding: 30px;
+.nav-link:hover{
+    color: yellow;
 }
-.carousel-inner img{
-    width: 300px;
-    height: 450px;
-}
-.carousel-caption h5{
-    background-color: white;
-    color: black;
-    font-family: "teko";
-    font-weight: 900;
-}
-.carousel-caption p{
+.prime {
+    display:flex ;
+    justify-content: center;
+    text-align: center;
     color: white;
-    background-color: black;
     border: solid yellow;
-    font-family: "arial";
+    font-family: "JosefinSans";
     font-weight: 500;
 }
 
+.card{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    border: none;
+    background-image: url(../img/mapa\ cordoba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    
+.tarjeta1{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-self: start;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.tarjeta1 p{
+    color: white;
+    font-family: "arial";
+    font-weight: 500;
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tarjeta1 img{
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    align-self: center; 
+    border-radius: 100px;   
+    border: solid yellow;
+    width: 200px;
+    height: 200px;
+}
+.tarjeta2{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-self: end;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+.tarjeta2 p{
+    color: white;
+    text-align: center;
+    font-family: "arial";
+    font-weight: 500;
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tarjeta2 img{
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 100px;
+    border: solid yellow;
+    width: 200px;
+    height: 200px;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    display:flex;
+    margin: 10px;
+    
+}
+.caja1 p{
+    color: black;
+    font-family: "arial";
+    font-weight: 700;
+    font-size: small;
+    text-align: justify;
+}
+
+.caja2{
+    display: grid;
+    background-image: url(https://media.ambito.com/p/97a7e7772c6ea0223840dc2c9fa4ed1d/adjuntos/239/imagenes/038/267/0038267174/cordoba.jpg);
+    background-repeat: none;
+    background-size:contain;
+    margin: 50px;
+    
+}
+
+iframe{
+    display: flex;
+    margin: 10px;
+    justify-self: center;
+}
+h4{
+    font-family: "JosefinSans";
+    font-weight: 700;
+    font-style: oblique;
+    color: white;
+    border: solid yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+/*# pagina de nosotros */
 .nosotros{
     background-color: black;
 }
 
-.titulo{
-    display: flexbox;
-    
+.container-fluid{
+    font-family: "JosefinSans";
+    font-weight: 500;
+    color: black;
 }
-h1{
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 100px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+}
+.second{
+    display: flex;
+    justify-content: center;
     font-family: "teko";
     font-weight: 700;
     font-size: larger;
     color: white;
     border: solid yellow;
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     padding: 10px;
-    
 }
 .titulo p{
-    text-align: center
+    text-align: center;
+    margin: 50px;
+    background-color: cadetblue;
 }
 .conteiner{
     display: flex;
@@ -110,65 +269,78 @@ h3{
     border: solid white
 }
 p{
-    font-family: "teko";
-    font-weight: 500;
+    font-family: "JosefinSans";
+    font-weight: 400;
     color: white;
     text-align: center;
 }
 .box1{
     display: flexbox;
-    background-image: url(../img/mision.png);
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     width: 100%;
+    
 
 }
 .box2{
     display: flexbox;
-    background-image: url(../img/vision.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     width:100%;
 
 }
 .box3{
     display: flexbox;
-    background-image: url(../img/valores.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     width: 100%;
     
 }
-
-.beneficios {
+.section{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;    
+    
+}
+.seccion1{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    background-color: cornflowerblue;
+    
+}
+.seccion2{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    background-color: cornflowerblue;
+}
+.seccion3{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+    background-color:cornflowerblue;
+}
+/*# pagina de beneficios */
+.beneficios{
     background-color: black;
 }
+/*# pagina de contacto */
 .contacto{
     background-color: black;
 }
+/*# pagina de kempes */
 .kempes{
     background-color: black;
 }
+/*# pagina de paquetes */
 .paquetes{
     background-color: black;
 }
+/*# pagina de planea tu viaje */
 .planea-tu-viaje{
     background-color: black;
-
-}
-
-@media (min-whitd:414px) and (max-whitd:1200px) {
-    img { 
-        width: 50px;
-        height: 50px; }
-
-    .carousel-inner{
-        width:100px;
-        height: 200px;
-    }
-    .carousel-inner img{
-        width: 10px;
-        height: 50px;
-    }
-
 }
