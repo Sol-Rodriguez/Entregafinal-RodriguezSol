@@ -58,7 +58,6 @@ body{
         .formulario{
             display: flex;
             flex-direction: column;
-            width: 600px;
             height: 500px;
             color: black;
             border: solid yellow 2px;
@@ -122,10 +121,29 @@ body{
             font-weight: 600;
             border: solid yellow 2px;
             width: 800px;
-            height: 400px;
             margin: 30px;
             padding: 20px;
             align-self: flex-end;
         }
     }
+}
+@media (max-width: 600px){
+    
+    .kempes {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        background-color: black;
+    }
+    .formulario{
+        flex-direction: column;
+        margin: 20px;
+        background-color: black;
+    }
+    .reservas{
+        flex-direction: column;
+        height: 600px;
+        background-color: black;
+    }
+    
 }

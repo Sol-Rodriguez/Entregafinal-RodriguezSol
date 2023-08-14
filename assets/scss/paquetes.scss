@@ -60,8 +60,6 @@ body{
         }
         
         .text-info{
-            display: flex;
-            flex-direction: column;
             justify-content: space-evenly;
             font-family: "JosefinSans";
             font-weight: 500;
@@ -77,4 +75,9 @@ body{
 
     }
 
+}
+@media (max-width:600px){
+    .paquetes{
+        flex-direction: column;
+    }
 }

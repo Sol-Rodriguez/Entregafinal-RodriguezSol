@@ -67,6 +67,14 @@ body{
         padding: 10px;
         background-color: black;
         border-radius: 30px;
+        animation-name: mianimacion;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    @keyframes mianimacion {
+        0% {background-color: black;}
+        50%{background-color: burlywood;}
+        100%{background-color: cornflowerblue;}
     }
     
     .tarjeta1 p{
@@ -97,6 +105,15 @@ body{
         padding: 10px;
         background-color: black;
         border-radius: 30px;
+        animation-name: mianimacion;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    @keyframes mianimacion {
+        0% {background-color: black;}
+        50%{background-color: burlywood;}
+        100%{background-color: cornflowerblue;}
+    }
     }
     .tarjeta2 p{
         color: white;
@@ -158,4 +175,3 @@ body{
         text-decoration: underline;
         text-align: center;
     }
-}

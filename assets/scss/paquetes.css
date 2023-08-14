@@ -56,8 +56,6 @@ body .paquetes .carousel-inner img {
   height: 800px;
 }
 body .paquetes .text-info {
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   font-family: "JosefinSans";
   font-weight: 500;
@@ -69,4 +67,12 @@ body .paquetes .text-info {
   padding: 30px;
   margin-top: 200px;
   text-align: center;
-}/*# sourceMappingURL=paquetes.css.map */
+}
+
+@media (max-width: 600px) {
+  .paquetes {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=paquetes.css.map */

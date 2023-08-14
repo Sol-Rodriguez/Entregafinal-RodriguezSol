@@ -75,4 +75,10 @@ body .contacto .facebook {
   background-color: blue;
   margin: 20px;
   padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=contacto.css.map */

@@ -92,4 +92,17 @@
   padding: 30px;
   text-align: center;
   background-color: white;
+}
+
+@media (max-width: 600px) {
+  .descuentos1 {
+    flex-direction: column;
+  }
+  img {
+    width: 250px;
+    height: 400px;
+  }
+  .descuentos2 {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=beneficios.css.map */

@@ -33,18 +33,17 @@
   display: flex;
   flex-direction: column;
 }
-.planea-tu-viaje .contenedor .title {
+.planea-tu-viaje .contenedor .title h1 {
   font-family: "teko";
   font-weight: 700;
-  font-size: larger;
+  font-size: large;
   color: white;
   border: solid yellow;
   text-align: center;
   height: 30px;
   margin: 20px;
 }
-
-.contenedor-items {
+.planea-tu-viaje .contenedor-items {
   background-image: url(../img/f\ mapa.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -52,13 +51,12 @@
   display: flex;
   justify-content: space-evenly;
 }
-.contenedor-items .calendario {
+.planea-tu-viaje .contenedor-items .calendario {
   display: flex;
   margin: 20px;
   padding: 30px;
 }
-
-.informacion {
+.planea-tu-viaje .informacion {
   background-color: black;
   border: solid white;
   width: 500px;
@@ -67,37 +65,34 @@
   padding: 30px;
   padding: 50px;
 }
-.informacion button {
+.planea-tu-viaje .informacion button {
   font-family: "teko";
   color: white;
   border: solid white 2px;
 }
-.informacion button:hover {
+.planea-tu-viaje .informacion button:hover {
   color: black;
 }
-
-.imput-img {
+.planea-tu-viaje .informacion .imput-img {
   display: flex;
   justify-content: center;
 }
-.imput-img #valor1 {
+.planea-tu-viaje .informacion .imput-img #valor1 {
   width: 100px;
   border: solid white;
   margin: 10px;
 }
-.imput-img img {
+.planea-tu-viaje .informacion .imput-img img {
   margin: 10px;
   border: solid white;
   border-radius: 30px;
 }
-
-.reservar {
+.planea-tu-viaje .informacion .reservar {
   display: flex;
   justify-content: center;
   height: 40px;
 }
-
-.mapa {
+.planea-tu-viaje .mapa {
   background-image: url(../img/fondo\ planea.png);
   background-position: center;
   background-repeat: no-repeat;

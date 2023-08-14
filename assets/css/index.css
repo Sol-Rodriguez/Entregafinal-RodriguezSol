@@ -63,6 +63,20 @@ body .tarjeta1 {
   padding: 10px;
   background-color: black;
   border-radius: 30px;
+  animation-name: mianimacion;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+@keyframes mianimacion {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: burlywood;
+  }
+  100% {
+    background-color: cornflowerblue;
+  }
 }
 body .tarjeta1 p {
   color: white;
@@ -91,8 +105,23 @@ body .tarjeta2 {
   padding: 10px;
   background-color: black;
   border-radius: 30px;
+  animation-name: mianimacion;
+  animation-duration: 4s;
+  animation-delay: 2s;
 }
-body .tarjeta2 p {
+@keyframes mianimacion {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: burlywood;
+  }
+  100% {
+    background-color: cornflowerblue;
+  }
+}
+
+.tarjeta2 p {
   color: white;
   text-align: center;
   font-family: "arial";
@@ -101,7 +130,8 @@ body .tarjeta2 p {
   margin: 10px;
   padding: 10px;
 }
-body .tarjeta2 img {
+
+.tarjeta2 img {
   width: 300px;
   height: 200px;
   justify-self: center;
@@ -111,34 +141,40 @@ body .tarjeta2 img {
   width: 200px;
   height: 200px;
 }
-body .informacion {
+
+.informacion {
   display: flex;
   flex-direction: column;
 }
-body .caja1 {
+
+.caja1 {
   display: flex;
   margin: 10px;
 }
-body .caja1 p {
+
+.caja1 p {
   color: black;
   font-family: "arial";
   font-weight: 700;
   font-size: small;
   text-align: justify;
 }
-body .caja2 {
+
+.caja2 {
   display: grid;
   background-image: url(https://media.ambito.com/p/97a7e7772c6ea0223840dc2c9fa4ed1d/adjuntos/239/imagenes/038/267/0038267174/cordoba.jpg);
   background-repeat: none;
   background-size: contain;
   margin: 50px;
 }
-body iframe {
+
+iframe {
   display: flex;
   margin: 10px;
   justify-self: center;
 }
-body h4 {
+
+h4 {
   font-family: "JosefinSans";
   font-weight: 700;
   font-style: oblique;
