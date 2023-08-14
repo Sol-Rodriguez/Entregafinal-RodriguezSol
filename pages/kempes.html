@@ -5,22 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TurismoCreere</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/scss/kempes.css">
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
 </head>
 
-<body class="kempes">
+<body>
   <header>
-    <nav>
-      <img src="../assets/img/logo.png" alt="logo" width="150px" height="150px">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">  <img class="logo" src="../assets/img/logo.png" alt="logo" width="10px" height="10px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page"></a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./beneficios.html">Beneficios</a>
+              <a class="nav-link" href="./planea-tu-viaje.html">Planea tu viaje</a>
+              <a class="nav-link" href="./paquetes.html">Paquetes</a>
+              <a class="nav-link" href="./kempes.html">Kempes</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
     </nav>
   </header>
+  <div class="title">
+    <h1>Mario Alberto Kempes</h1>
+  </div>
 
+  <div class="kempes">
+    <div class="calendario">
+      <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%234285F4&ctz=America%2FArgentina%2FCordoba&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=1&showTz=0&src=NGYyNWMzMjg1NWNmNDE1Y2MwNGUxMzQ2MmViOTgyM2IzY2NiZGU5MTY3OWI3OGZhMTk4NGUzYzc1N2VjMTM2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23B39DDB" style="border:solid 1px #777" width="600" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="formulario">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Eliga una Opcion</option>
+        <option value="1">Origen</option>
+        <option value="2">Destino</option>
+      </select>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Barrio</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="horarios">
+        <input type="time" name="tiempos" id="time-am-pm">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Cantidad de Personas</span>
+        <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button type="button" class="btn btn-primary">CONSULTAR</button>
+      <div class="alert alert-primary" role="alert">Disponible</div>
+    </div>
+  </div>
+  <div class="kempes1">
+    <div class="reservas">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+          <div class="valid-tooltip">
+            Muy bien!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+          <div class="valid-tooltip">
+            Muy bien!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="validationtootipemail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="validationtootipemail" aria-describedby="emailHelp">
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">Barrio</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Porfavor ingrese un Barrio.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">Localidad</label>
+          <input type="text" class="form-control" id="validationTooltip04" required>
+          <div class="invalid-tooltip">
+            Porfavor ingrese una Localidad.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">N° de Contacto</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Porfavor ingrese un numero de contacto.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
 
 
 
   <footer>
-    <p>derechos reservados</p>
+    derechos reservados
   </footer>
 <script src="../assets/js/bootstrap.min.js"></script>
 </body>

@@ -1,0 +1,125 @@
+$font:"JosefinSans";
+$font1:"teko";
+
+
+
+.planea-tu-viaje{
+    background-color: black;
+    header{
+        display: flex;
+        justify-content:space-between;  
+        align-items: center;
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            padding: 20px;
+            border-radius: 100px;
+            
+        }
+        .navbar{
+            background-color: black;
+            width: 100%;
+        }
+        .navbar-collapse{
+            flex-grow: 0;
+            text-align: end;
+        }
+        .nav-link {
+            color: white;
+            font-family: "JosefinSans";
+            font-weight: 500;
+        }
+        .nav-link:hover{
+            color: yellow;
+        }
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+
+        .title{
+            font-family:$font1;
+            font-weight: 700;
+            font-size: larger;
+            color: white;
+            border: solid yellow;
+            text-align: center;
+            height: 30px;
+            margin: 20px;
+        }
+        }
+    }
+    .contenedor-items{
+        background-image: url(../img/f\ mapa.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        display: flex;
+        justify-content: space-evenly;
+
+            .calendario{
+            display: flex;
+            margin: 20px;
+            padding: 30px;
+            }
+        }
+    .informacion{
+        background-color: black;
+        border: solid white;
+        width: 500px;
+        height: 300px;
+        margin: 60px;
+        padding: 30px;
+        padding: 50px;
+        
+            button{
+                font-family: $font1;
+                color: white;
+                border: solid white 2px;
+            }
+
+            button:hover{
+                color: black;
+            }
+        
+        }
+        .imput-img{
+        display: flex;
+        justify-content: center;
+
+            #valor1{
+                width: 100px;
+                border: solid white;
+                margin: 10px;
+            }
+
+            img {
+                margin: 10px;
+                border: solid white;
+                border-radius: 30px;
+            }  
+        }   
+        .reservar{
+            display: flex;
+            justify-content: center;
+            height: 40px;
+        }
+    
+    .mapa{
+        background-image: url(../img/fondo\ planea.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        padding: 30px;
+    }
+
+
+
+
+
+    

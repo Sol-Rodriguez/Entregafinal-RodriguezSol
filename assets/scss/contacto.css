@@ -1,0 +1,134 @@
+body {
+  background-color: black;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  border-radius: 100px;
+}
+body header .navbar {
+  background-color: black;
+  width: 100%;
+}
+body header .navbar-collapse {
+  flex-grow: 0;
+  text-align: end;
+}
+body header .nav-link {
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 500;
+}
+body header .nav-link:hover {
+  color: yellow;
+}
+body .title-contacto h1 {
+  background-color: black;
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  margin: 20px;
+  height: 30px;
+}
+body .contacto {
+  display: flex;
+  justify-content: space-between;
+}
+body .contacto .whatsapp {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: green;
+  margin: 20px;
+  padding: 10px;
+}
+body .contacto .instagram {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: pink;
+  margin: 20px;
+  padding: 10px;
+}
+body .contacto .gmail {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: orangered;
+  margin: 20px;
+  padding: 10px;
+}
+body .contacto .facebook {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: blue;
+  margin: 20px;
+  padding: 10px;
+}
+@keyframes animate__backInUp {
+  0% {
+    width: 100px;
+  }
+  10% {
+    width: 50px;
+  }
+  25% {
+    width: 300px;
+  }
+  50% {
+    width: 200px;
+  }
+  75% {
+    width: 300px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+body .whatsapp {
+  width: 100px;
+  height: 100px;
+  animation-name: animate__backInUp;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 10s;
+}
+body .instagram {
+  width: 100px;
+  height: 100px;
+  animation-name: animate__backInUp;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 10s;
+}
+body .gmail {
+  width: 100px;
+  height: 100px;
+  animation-name: animate__backInUp;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 10s;
+}
+body .facebook {
+  width: 100px;
+  height: 100px;
+  animation-name: animate__backInUp;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 10s;
+}/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,131 @@
+body{
+        background-color: black;
+            
+    header{
+        display: flex;
+        justify-content:space-between;  
+        align-items: center;
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            padding: 20px;
+            border-radius: 100px;
+            
+        }
+        .navbar{
+            background-color: black;
+            width: 100%;
+        }
+        .navbar-collapse{
+            flex-grow: 0;
+            text-align: end;
+        }
+        .nav-link {
+            color: white;
+            font-family: "JosefinSans";
+            font-weight: 500;
+        }
+        .nav-link:hover{
+            color: yellow;
+        }
+    }
+    .title h1{
+        background-color: black;
+        font-family: "teko";
+        font-weight: 700;
+        font-size: larger;
+        color: white;
+        border: solid yellow;
+        text-align: center;
+        margin: 20px;
+        height: 30px;
+    }
+            
+    .kempes{
+            background-image: url(../img/Kempes.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            
+        .calendario{
+            display: flex;
+            
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 500px;
+            color: black;
+            border: solid yellow 2px;
+            font-family: "JosefinSans";
+            font-weight: 300;
+            text-align: center;
+            padding: 20px;
+
+                .form-select{
+                    margin: 10px;
+                    padding: 10px;
+                    border: solid black 2px;
+            }
+                .input-group {
+                    margin: 10px !important;
+                    padding: 10px;
+
+                    .input-group-text{
+                        border: solid black 2px;
+                    }
+                    .form-control{
+                        border: solid black 2px;
+                    }
+                    
+            }
+                .horarios{
+                    margin: 10px;
+                    padding: 10px;
+                    
+                    #time-am-pm{
+                        border: solid black 2px;
+                    }
+                    
+            }
+                button{
+                    margin: 10px;
+                    padding: 10px;
+                    
+            }
+                .alert{
+                    margin: 10px;
+                    padding: 10px;
+                    
+            }
+                
+            
+        }
+    }
+    .kempes1{
+        background-image: url(../img/Kempes.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+            .reservas{
+            display: flex;
+            color: white;
+            font-family: "JosefinSans";
+            font-weight: 600;
+            border: solid yellow 2px;
+            width: 800px;
+            height: 400px;
+            margin: 30px;
+            padding: 20px;
+            align-self: flex-end;
+        }
+    }
+}

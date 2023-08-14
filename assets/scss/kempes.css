@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  border-radius: 100px;
+}
+body header .navbar {
+  background-color: black;
+  width: 100%;
+}
+body header .navbar-collapse {
+  flex-grow: 0;
+  text-align: end;
+}
+body header .nav-link {
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 500;
+}
+body header .nav-link:hover {
+  color: yellow;
+}
+body .title h1 {
+  background-color: black;
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  margin: 20px;
+  height: 30px;
+}
+body .kempes {
+  background-image: url(../img/Kempes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+body .kempes .calendario {
+  display: flex;
+}
+body .kempes .formulario {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  color: black;
+  border: solid yellow 2px;
+  font-family: "JosefinSans";
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+}
+body .kempes .formulario .form-select {
+  margin: 10px;
+  padding: 10px;
+  border: solid black 2px;
+}
+body .kempes .formulario .input-group {
+  margin: 10px !important;
+  padding: 10px;
+}
+body .kempes .formulario .input-group .input-group-text {
+  border: solid black 2px;
+}
+body .kempes .formulario .input-group .form-control {
+  border: solid black 2px;
+}
+body .kempes .formulario .horarios {
+  margin: 10px;
+  padding: 10px;
+}
+body .kempes .formulario .horarios #time-am-pm {
+  border: solid black 2px;
+}
+body .kempes .formulario button {
+  margin: 10px;
+  padding: 10px;
+}
+body .kempes .formulario .alert {
+  margin: 10px;
+  padding: 10px;
+}
+body .kempes1 {
+  background-image: url(../img/Kempes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+body .kempes1 .reservas {
+  display: flex;
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 600;
+  border: solid yellow 2px;
+  width: 800px;
+  height: 400px;
+  margin: 30px;
+  padding: 20px;
+  align-self: flex-end;
+}/*# sourceMappingURL=kempes.css.map */

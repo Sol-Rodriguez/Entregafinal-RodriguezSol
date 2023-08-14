@@ -1,0 +1,109 @@
+.planea-tu-viaje {
+  background-color: black;
+}
+.planea-tu-viaje header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.planea-tu-viaje header .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  border-radius: 100px;
+}
+.planea-tu-viaje header .navbar {
+  background-color: black;
+  width: 100%;
+}
+.planea-tu-viaje header .navbar-collapse {
+  flex-grow: 0;
+  text-align: end;
+}
+.planea-tu-viaje header .nav-link {
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 500;
+}
+.planea-tu-viaje header .nav-link:hover {
+  color: yellow;
+}
+.planea-tu-viaje .contenedor {
+  display: flex;
+  flex-direction: column;
+}
+.planea-tu-viaje .contenedor .title {
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  height: 30px;
+  margin: 20px;
+}
+
+.contenedor-items {
+  background-image: url(../img/f\ mapa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedor-items .calendario {
+  display: flex;
+  margin: 20px;
+  padding: 30px;
+}
+
+.informacion {
+  background-color: black;
+  border: solid white;
+  width: 500px;
+  height: 300px;
+  margin: 60px;
+  padding: 30px;
+  padding: 50px;
+}
+.informacion button {
+  font-family: "teko";
+  color: white;
+  border: solid white 2px;
+}
+.informacion button:hover {
+  color: black;
+}
+
+.imput-img {
+  display: flex;
+  justify-content: center;
+}
+.imput-img #valor1 {
+  width: 100px;
+  border: solid white;
+  margin: 10px;
+}
+.imput-img img {
+  margin: 10px;
+  border: solid white;
+  border-radius: 30px;
+}
+
+.reservar {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.mapa {
+  background-image: url(../img/fondo\ planea.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 30px;
+}/*# sourceMappingURL=planea-tu-viaje.css.map */

@@ -1,0 +1,95 @@
+.beneficios {
+  background-color: black;
+}
+.beneficios header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.beneficios .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  border-radius: 100px;
+}
+.beneficios .navbar {
+  background-color: black;
+  width: 100%;
+}
+.beneficios .navbar-collapse {
+  flex-grow: 0;
+  text-align: end;
+}
+.beneficios .navbar-nav {
+  display: flex;
+}
+.beneficios .nav-link {
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 500;
+}
+.beneficios .nav-link:hover {
+  color: yellow;
+}
+.beneficios .title h1 {
+  background-color: black;
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  margin: 20px;
+  height: 30px;
+}
+.beneficios div {
+  display: grid;
+}
+.beneficios div .descuentos1 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../img/turista\ cima.png);
+  opacity: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.beneficios div .descuentos1 .img-1 {
+  display: flex;
+  justify-content: start;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 60px;
+}
+.beneficios div .descuentos1 .img-2 {
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 60px;
+}
+.beneficios .descuentos2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.beneficios .descuentos2 .texto-1 {
+  display: flex;
+  color: black;
+  width: 300px;
+  height: 250px;
+  margin: 150px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+.beneficios .descuentos2 .texto-2 {
+  display: flex;
+  color: black;
+  width: 300px;
+  height: 250px;
+  margin: 150px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}/*# sourceMappingURL=beneficios.css.map */

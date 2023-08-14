@@ -5,21 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TurismoCreere</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/scss/planea-tu-viaje.css">
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
 </head>
 
 <body class="planea-tu-viaje">
   <header>
-    <nav>
-      <img src="../assets/img/logo.png" alt="logo" width="150px" height="150px">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> <img class="logo" src="../assets/img/logo.png" alt="logo" width="10px" height="10px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page"></a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./beneficios.html">Beneficios</a>
+              <a class="nav-link" href="./planea-tu-viaje.html">Planea tu viaje</a>
+              <a class="nav-link" href="./paquetes.html">Paquetes</a>
+              <a class="nav-link" href="./paquetes.html">Kempes</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
     </nav>
-  </header>
+</header>
+<div class="contenedor">
+  <section class="title">
+    <h5>PLANEA TU VIAJE</h5>
+  </section>
+</div>
+<div class="contenedor-items" class="col-sm-4 col-md-4 col-lg-4">
+  <div class="calendario">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23039BE5&ctz=America%2FArgentina%2FCordoba&showTitle=0&showNav=0&showPrint=0&showTabs=1&showCalendars=0&showTz=1&mode=WEEK&src=NGYyNWMzMjg1NWNmNDE1Y2MwNGUxMzQ2MmViOTgyM2IzY2NiZGU5MTY3OWI3OGZhMTk4NGUzYzc1N2VjMTM2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23B39DDB" style="border-width:0" width="600" height="350px" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <div class="informacion" class="col-sm-6 col-md-6 col-lg-4">
+    <div class="input-group mb-3">
+      <button type="button" class="btn btn-outline-secondary">ORIGEN</button>
+      <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+    </div>
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+      <button type="button" class="btn btn-outline-secondary">DESTINO</button>
+    </div>
+    <div class="imput-img">
+      <input type="number" name="numeros" id="valor1">
+      <img src="../assets/img/maniqui.png" alt="maniqui" width="50px" height="40px">
+    </div>
+    <div class="reservar">
+      <button type="button" class="btn btn-outline-light">RESERVAR</button>
+    </div>
+  </div>
+</div>
+<div class="mapa" class="col-sm-4 col-md-4 col-lg-4">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217955.0018406396!2d-64.35902505030101!3d-31.399054707739655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1691611481919!5m2!1ses!2sar" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div>
 
 
 
-  <footer>
-    <p>derechos reservados</p>
-  </footer>
+
+
+<footer>
+  derechos reservados
+</footer>
 <script src="../assets/js/bootstrap.min.js"></script>
 </body>

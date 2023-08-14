@@ -1,0 +1,120 @@
+.nosotros {
+  background-color: black;
+}
+.nosotros header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nosotros .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 20px;
+  border-radius: 100px;
+}
+.nosotros .navbar {
+  background-color: black;
+  width: 100%;
+}
+.nosotros .navbar-collapse {
+  flex-grow: 0;
+  text-align: end;
+}
+.nosotros .nav-link {
+  color: white;
+  font-family: "JosefinSans";
+  font-weight: 500;
+}
+.nosotros .nav-link:hover {
+  color: yellow;
+}
+.nosotros .titulo {
+  display: flex;
+  flex-direction: column;
+}
+.nosotros .second {
+  display: flex;
+  justify-content: center;
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+.nosotros .titulo p {
+  text-align: center;
+  margin: 50px;
+  background-color: cadetblue;
+}
+.nosotros .conteiner {
+  display: flex;
+}
+.nosotros .row {
+  display: flexbox;
+  margin: 10px;
+  padding: 10px;
+}
+.nosotros h3 {
+  font-family: "teko";
+  font-weight: 500;
+  color: black;
+  background-color: gold;
+  text-align: center;
+  border: solid white;
+}
+.nosotros p {
+  font-family: "JosefinSans";
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.nosotros .box1 {
+  display: flexbox;
+  background-color: black;
+  width: 100%;
+}
+.nosotros .box2 {
+  display: flexbox;
+  background-color: black;
+  width: 100%;
+}
+.nosotros .box3 {
+  display: flexbox;
+  background-color: black;
+  width: 100%;
+}
+.nosotros .section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.nosotros .seccion1 {
+  display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  background-color: cornflowerblue;
+}
+.nosotros .seccion2 {
+  display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  background-color: cornflowerblue;
+}
+.nosotros .seccion3 {
+  display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding-top: 25px;
+  background-color: cornflowerblue;
+}
+
+/*# sourceMappingURL=nostros.css.map */
