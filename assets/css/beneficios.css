@@ -32,6 +32,17 @@
 .beneficios .nav-link:hover {
   color: yellow;
 }
+.beneficios .title h1 {
+  background-color: black;
+  font-family: "teko";
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  border: solid yellow;
+  text-align: center;
+  margin: 20px;
+  height: 30px;
+}
 .beneficios div {
   display: grid;
 }
