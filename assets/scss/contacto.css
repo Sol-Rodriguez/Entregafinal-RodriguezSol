@@ -1,5 +1,8 @@
 body {
-  background-color: black;
+  background-image: url(../img/back\ fotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body header {
   display: flex;
@@ -14,7 +17,10 @@ body header .logo {
   border-radius: 100px;
 }
 body header .navbar {
-  background-color: black;
+  background-image: url(../img/navbar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 body header .navbar-collapse {
@@ -27,7 +33,7 @@ body header .nav-link {
   font-weight: 500;
 }
 body header .nav-link:hover {
-  color: yellow;
+  color: rgb(1, 50, 32);
 }
 body .title-contacto h1 {
   background-color: black;
@@ -35,10 +41,9 @@ body .title-contacto h1 {
   font-weight: 700;
   font-size: larger;
   color: white;
-  border: solid yellow;
+  background-color: rgb(1, 50, 32);
   text-align: center;
   margin: 20px;
-  height: 30px;
 }
 body .contacto {
   display: flex;
@@ -46,39 +51,43 @@ body .contacto {
 }
 body .contacto .whatsapp {
   display: flex;
-  width: 300px;
-  height: 400px;
-  background-color: green;
   margin: 20px;
   padding: 10px;
 }
 body .contacto .instagram {
   display: flex;
-  width: 300px;
-  height: 400px;
-  background-color: pink;
   margin: 20px;
   padding: 10px;
 }
 body .contacto .gmail {
   display: flex;
-  width: 300px;
-  height: 400px;
-  background-color: orangered;
   margin: 20px;
   padding: 10px;
 }
 body .contacto .facebook {
   display: flex;
-  width: 300px;
-  height: 400px;
-  background-color: blue;
   margin: 20px;
   padding: 10px;
+}
+body footer {
+  display: flex;
+  font-family: "JosefinSans";
+  font-weight: 200;
+  font-size: small;
+  text-align: center;
+  margin: 20px;
 }
 
 @media (max-width: 600px) {
   .contacto {
     flex-direction: column;
+    padding: 40px;
   }
-}/*# sourceMappingURL=contacto.css.map */
+}
+@media (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=contacto.css.map */

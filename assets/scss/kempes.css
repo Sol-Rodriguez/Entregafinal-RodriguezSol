@@ -1,5 +1,8 @@
 body {
-  background-color: black;
+  background-image: url(../img/back\ fotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body header {
   display: flex;
@@ -14,7 +17,10 @@ body header .logo {
   border-radius: 100px;
 }
 body header .navbar {
-  background-color: black;
+  background-image: url(../img/navbar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 body header .navbar-collapse {
@@ -27,24 +33,18 @@ body header .nav-link {
   font-weight: 500;
 }
 body header .nav-link:hover {
-  color: yellow;
+  color: rgb(1, 50, 32);
 }
 body .title h1 {
-  background-color: black;
+  background-color: rgb(1, 50, 32);
   font-family: "teko";
   font-weight: 700;
   font-size: larger;
   color: white;
-  border: solid yellow;
   text-align: center;
   margin: 20px;
-  height: 30px;
 }
 body .kempes {
-  background-image: url(../img/Kempes.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: space-around;
 }
@@ -56,7 +56,8 @@ body .kempes .formulario {
   flex-direction: column;
   height: 500px;
   color: black;
-  border: solid yellow 2px;
+  background-color: rgb(178, 132, 190);
+  border: solid rgb(32, 114, 175);
   font-family: "JosefinSans";
   font-weight: 300;
   text-align: center;
@@ -93,23 +94,28 @@ body .kempes .formulario .alert {
   padding: 10px;
 }
 body .kempes1 {
-  background-image: url(../img/Kempes.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
 }
 body .kempes1 .reservas {
   display: flex;
-  color: white;
+  color: black;
   font-family: "JosefinSans";
   font-weight: 600;
-  border: solid yellow 2px;
+  background-color: rgb(178, 132, 190);
   width: 800px;
   margin: 30px;
   padding: 20px;
   align-self: flex-end;
+  border: solid rgb(32, 114, 175);
+}
+body footer {
+  display: flex;
+  font-family: "JosefinSans";
+  font-weight: 200;
+  font-size: small;
+  text-align: center;
+  margin: 20px;
 }
 
 @media (max-width: 600px) {
@@ -117,16 +123,13 @@ body .kempes1 .reservas {
     display: flex;
     flex-direction: column;
     margin: 30px;
-    background-color: black;
   }
   .formulario {
     flex-direction: column;
     margin: 20px;
-    background-color: black;
   }
   .reservas {
     flex-direction: column;
     height: 600px;
-    background-color: black;
   }
-}/*# sourceMappingURL=kempes.css.map */
+}/*# sourceMappingURL=kempes.css.map */*/

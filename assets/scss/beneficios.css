@@ -1,97 +1,97 @@
-.beneficios {
-  background-color: black;
+body {
+  background-image: url(../img/back\ fotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.beneficios header {
+body header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.beneficios .logo {
+body .logo {
   width: 150px;
   height: 150px;
   display: flex;
   padding: 20px;
   border-radius: 100px;
 }
-.beneficios .navbar {
-  background-color: black;
+body .navbar {
+  background-image: url(../img/navbar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
-.beneficios .navbar-collapse {
+body .navbar-collapse {
   flex-grow: 0;
   text-align: end;
 }
-.beneficios .navbar-nav {
+body .navbar-nav {
   display: flex;
 }
-.beneficios .nav-link {
+body .nav-link {
   color: white;
   font-family: "JosefinSans";
   font-weight: 500;
 }
-.beneficios .nav-link:hover {
+body .nav-link:hover {
   color: yellow;
 }
-.beneficios .title h1 {
-  background-color: black;
+body .title h1 {
+  background-color: rgb(1, 50, 32);
   font-family: "teko";
   font-weight: 700;
   font-size: larger;
   color: white;
-  border: solid yellow;
   text-align: center;
   margin: 20px;
   height: 30px;
 }
-.beneficios div {
+body div {
   display: grid;
 }
-.beneficios div .descuentos1 {
+body div .descuentos1 {
   display: flex;
   justify-content: space-around;
-  background-image: url(../img/turista\ cima.png);
-  opacity: 50px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-.beneficios div .descuentos1 .img-1 {
+body div .descuentos1 .img-1 {
   display: flex;
   justify-content: start;
   margin: 20px;
-  padding: 30px;
-  border-radius: 60px;
+  border: dashed rgb(79, 121, 66);
 }
-.beneficios div .descuentos1 .img-2 {
+body div .descuentos1 .img-2 {
   display: flex;
   justify-content: end;
-  padding: 30px;
   margin: 20px;
-  border-radius: 60px;
+  border: dashed rgb(79, 121, 66);
 }
-.beneficios .descuentos2 {
-  display: flex;
-  justify-content: space-evenly;
-}
-.beneficios .descuentos2 .texto-1 {
-  display: flex;
-  color: black;
-  width: 300px;
-  height: 250px;
-  margin: 150px;
-  padding: 30px;
+body .mdp h4 {
   text-align: center;
-  background-color: white;
+  font-family: "JosefinSans";
+  font-weight: 700;
+  font-size: medium;
+  color: white;
+  background-color: rgb(1, 50, 32);
+  margin: 30px;
+  padding: 10px;
 }
-.beneficios .descuentos2 .texto-2 {
+body .descuentos2 {
   display: flex;
-  color: black;
-  width: 300px;
-  height: 250px;
-  margin: 150px;
-  padding: 30px;
+  justify-content: space-around;
+  padding: 10px;
+}
+body .descuentos2 .mediodepago {
+  display: flex;
+}
+body footer {
+  display: flex;
+  font-family: "JosefinSans";
+  font-weight: 200;
+  font-size: small;
   text-align: center;
-  background-color: white;
+  margin: 20px;
 }
 
 @media (max-width: 600px) {
@@ -99,10 +99,13 @@
     flex-direction: column;
   }
   img {
-    width: 250px;
-    height: 400px;
+    width: 350px;
   }
   .descuentos2 {
-    flex-direction: column;
+    height: auto;
+  }
+  footer img {
+    width: 10px;
+    height: 10px;
   }
 }/*# sourceMappingURL=beneficios.css.map */

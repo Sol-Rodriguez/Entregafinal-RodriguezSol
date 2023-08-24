@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    background-image: url(../img/back\ fotos.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     header{
         display: flex;
         justify-content:space-between;  
@@ -13,14 +16,11 @@ body{
         border-radius: 100px;
         
     }
-    .fondo-principal {
-        background-color: black;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
     .navbar{
-        background-color: black;
+        background-image: url(../img/navbar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         width: 100%;
     }
     .navbar-collapse{
@@ -33,16 +33,17 @@ body{
         font-weight: 500;
     }
     .nav-link:hover{
-        color: yellow;
+        color: rgb(1, 50, 32);
     }
     .prime {
         display:flex ;
         justify-content: center;
         text-align: center;
         color: white;
-        border: solid yellow;
+        background-color: rgb(1, 50, 32);
         font-family: "JosefinSans";
         font-weight: 500;
+        margin: 10px;
     }
     
     .card{
@@ -51,90 +52,81 @@ body{
         grid-gap: 30px;
         grid-auto-rows: minmax(100px, auto);
         border: none;
-        background-image: url(../img/mapa\ cordoba.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color:initial;
     }
     
     
-        
     .tarjeta1{
         display: grid;
         grid-template-columns: 500px;
         justify-self: start;
         margin: 50px;
         padding: 10px;
-        background-color: black;
+        background-color: rgb(1, 50, 32);
         border-radius: 30px;
-        animation-name: mianimacion;
-        animation-duration: 4s;
-        animation-delay: 2s;
-    }
-    @keyframes mianimacion {
-        0% {background-color: black;}
-        50%{background-color: burlywood;}
-        100%{background-color: cornflowerblue;}
     }
     
     .tarjeta1 p{
         color: white;
-        font-family: "arial";
-        font-weight: 500;
-        font-size: small;
+        font-family: "JosefinSans";
+        font-weight: 700;
+        font-size: larger;
         margin: 10px;
         padding: 10px;
         text-align: center;
     }
     
     .tarjeta1 img{
-        width: 300px;
+        width: 200px;
         height: 200px;
         justify-self: center;
         align-self: center; 
-        border-radius: 100px;   
-        border: solid yellow;
-        width: 200px;
-        height: 200px;
+        border: solid white;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
     }
+    @keyframes aparecer {
+        0%{ opacity: 0;}
+        100%{opacity: 1;}
+        
+    }
+
     .tarjeta2{
         display: grid;
         grid-template-columns: 500px;
         justify-self: end;
         margin: 50px;
         padding: 10px;
-        background-color: black;
         border-radius: 30px;
-        animation-name: mianimacion;
-        animation-duration: 4s;
-        animation-delay: 2s;
-    }
-    @keyframes mianimacion {
-        0% {background-color: black;}
-        50%{background-color: burlywood;}
-        100%{background-color: cornflowerblue;}
-    }
+        background-color: rgb(1, 50, 32);
     }
     .tarjeta2 p{
         color: white;
         text-align: center;
-        font-family: "arial";
-        font-weight: 500;
-        font-size: small;
+        font-family: "JosefinSans";
+        font-weight: 700;
+        font-size: larger;
         margin: 10px;
         padding: 10px;
     }
     
     .tarjeta2 img{
-        width: 300px;
+        width: 200px;
         height: 200px;
         justify-self: center;
         align-self: center;
-        border-radius: 100px;
-        border: solid yellow;
-        width: 200px;
-        height: 200px;
+        border: solid white;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
     }
+    @keyframes aparecer {
+        0%{ opacity: 0;}
+        100%{opacity: 1;}
+        
+    }
+
     .informacion{
         display: flex;
         flex-direction: column;
@@ -144,26 +136,14 @@ body{
         margin: 10px;
         
     }
-    .caja1 p{
-        color: black;
-        font-family: "arial";
-        font-weight: 700;
-        font-size: small;
-        text-align: justify;
-    }
-    
     .caja2{
         display: grid;
-        background-image: url(https://media.ambito.com/p/97a7e7772c6ea0223840dc2c9fa4ed1d/adjuntos/239/imagenes/038/267/0038267174/cordoba.jpg);
-        background-repeat: none;
-        background-size:contain;
         margin: 50px;
         
     }
     
     iframe{
         display: flex;
-        margin: 10px;
         justify-self: center;
     }
     h4{
@@ -171,7 +151,37 @@ body{
         font-weight: 700;
         font-style: oblique;
         color: white;
-        border: solid yellow;
+        background-color:rgb(1, 50, 32);
         text-decoration: underline;
         text-align: center;
+        margin: 10px;
     }
+footer{
+    display: flex;
+    font-family:"JosefinSans";
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+}
+}
+@media (max-width:600px){
+    .card{
+        display: flex;
+        justify-content: center;
+        
+     }
+     .tarjeta1{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+     }
+     .tarjeta2{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    iframe{
+        width: 300px;
+    }
+}

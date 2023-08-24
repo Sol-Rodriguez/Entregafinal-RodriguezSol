@@ -1,5 +1,8 @@
-.beneficios {
-    background-color: black;
+body {
+    background-image: url(../img/back\ fotos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     header{
         display: flex;
         justify-content:space-between;  
@@ -14,7 +17,10 @@
         
     }
     .navbar{
-        background-color: black;
+        background-image: url(../img/navbar.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
     }
     .navbar-collapse{
@@ -33,12 +39,11 @@
         color: yellow;
     }
     .title h1{
-        background-color: black;
+        background-color: rgb(1, 50, 32);
         font-family: "teko";
         font-weight: 700;
         font-size: larger;
         color: white;
-        border: solid yellow;
         text-align: center;
         margin: 20px;
         height: 30px;
@@ -49,68 +54,69 @@
         .descuentos1{
             display:flex;
             justify-content: space-around;
-            background-image: url(../img/turista\ cima.png);
-            opacity: 50px;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-    
+        
             .img-1 {
                 display: flex;
                 justify-content: start;
                 margin: 20px;
-                padding: 30px;
-                border-radius: 60px;
+                border:dashed rgb(79, 121, 66);
+                
+                
             }
             .img-2 {
                 display: flex;
                 justify-content: end;
-                padding: 30px;
                 margin: 20px;
-                border-radius: 60px;
+                border: dashed rgb(79, 121, 66);
                 
             }
             }
         }
+        .mdp h4{
+            text-align: center;
+            font-family: "JosefinSans";
+            font-weight: 700;
+            font-size: medium;
+            color: white;
+            background-color: rgb(1, 50, 32);
+            margin: 30px;
+            padding: 10px;
+            
+        }
+
         .descuentos2{
             display: flex;
-            justify-content: space-evenly;
-            
-            .texto-1 {
+            justify-content: space-around;
+            padding: 10px;
+            .mediodepago{
                 display: flex;
-                color: black;
-                width: 300px;
-                height: 250px;
-                margin: 150px;
-                padding: 30px;
-                text-align: center;   
-                background-color: white;
             }
-            
-            .texto-2 {
-                display: flex;
-                color: black;
-                width: 300px;
-                height: 250px;
-                margin: 150px;
-                padding: 30px;
-                text-align: center;
-                background-color:white;
-            }
-            }
+}
+footer{
+    display: flex;
+    font-family:"JosefinSans";
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+}
 }
 @media (max-width: 600px){
     .descuentos1 {
         flex-direction: column;
     }
     img{
-        width: 250px;
-        height: 400px;
+        width: 350px;
     }
     .descuentos2{
-        flex-direction: column;
-        
+        height: auto;
     }
-}
+    footer img{
+        width: 10px;
+        height: 10px;
+    }
+    }
    
+
+
 

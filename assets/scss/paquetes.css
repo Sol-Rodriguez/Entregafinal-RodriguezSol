@@ -1,5 +1,8 @@
 body {
-  background-color: black;
+  background-image: url(../img/back\ fotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body header {
   display: flex;
@@ -14,7 +17,10 @@ body header .logo {
   border-radius: 100px;
 }
 body header .navbar {
-  background-color: black;
+  background-image: url(../img/navbar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 body header .navbar-collapse {
@@ -27,28 +33,25 @@ body header .nav-link {
   font-weight: 500;
 }
 body header .nav-link:hover {
-  color: yellow;
+  color: rgb(1, 50, 32);
 }
 body .title h1 {
   font-family: "teko";
   font-weight: 700;
   font-size: larger;
   color: white;
-  border: solid yellow;
+  background-color: rgb(1, 50, 32);
   text-align: center;
-  height: 30px;
   margin: 20px;
 }
 body .paquetes {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 body .paquetes .carousel {
   display: flex;
   margin: 30px;
   padding: 30px;
-  width: 700px;
   height: 800px;
 }
 body .paquetes .carousel-inner img {
@@ -56,23 +59,34 @@ body .paquetes .carousel-inner img {
   height: 800px;
 }
 body .paquetes .text-info {
-  justify-content: space-evenly;
   font-family: "JosefinSans";
   font-weight: 500;
   color: white !important;
-  border: solid yellow;
+  background-color: rgb(128, 0, 0);
   width: 300px;
-  height: 500px;
+  height: 400px;
   margin: 50px;
   padding: 30px;
-  margin-top: 200px;
+  margin-top: 300px;
   text-align: center;
 }
+body .paquetes .text-info button {
+  margin-top: 30px;
+}
+body footer {
+  display: flex;
+  font-family: "JosefinSans";
+  font-weight: 200;
+  font-size: small;
+  text-align: center;
+  margin: 20px;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .paquetes {
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=paquetes.css.map */
+  .text-info {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=paquetes.css.map */*/

@@ -1,104 +1,115 @@
-.planea-tu-viaje {
-  background-color: black;
+body {
+  background-image: url(../img/back\ fotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.planea-tu-viaje header {
+body header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.planea-tu-viaje header .logo {
+body header .logo {
   width: 150px;
   height: 150px;
   display: flex;
   padding: 20px;
   border-radius: 100px;
 }
-.planea-tu-viaje header .navbar {
-  background-color: black;
+body header .navbar {
+  background-image: url(../img/navbar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
-.planea-tu-viaje header .navbar-collapse {
+body header .navbar-collapse {
   flex-grow: 0;
   text-align: end;
 }
-.planea-tu-viaje header .nav-link {
+body header .nav-link {
   color: white;
   font-family: "JosefinSans";
   font-weight: 500;
 }
-.planea-tu-viaje header .nav-link:hover {
-  color: yellow;
+body header .nav-link:hover {
+  color: rgb(1, 50, 32);
 }
-.planea-tu-viaje .contenedor {
+body .contenedor {
   display: flex;
   flex-direction: column;
 }
-.planea-tu-viaje .contenedor .title h1 {
+body .contenedor .title h1 {
   font-family: "teko";
   font-weight: 700;
   font-size: large;
   color: white;
-  border: solid yellow;
+  background-color: rgb(1, 50, 32);
   text-align: center;
-  height: 30px;
   margin: 20px;
 }
-.planea-tu-viaje .contenedor-items {
-  background-image: url(../img/f\ mapa.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body .contenedor-items {
   display: flex;
   justify-content: space-evenly;
 }
-.planea-tu-viaje .contenedor-items .calendario {
+body .contenedor-items .calendario {
   display: flex;
   margin: 20px;
   padding: 30px;
 }
-.planea-tu-viaje .informacion {
-  background-color: black;
+body .informacion {
+  background-color: rgb(30, 144, 255);
   border: solid white;
-  width: 500px;
   height: 300px;
   margin: 60px;
   padding: 30px;
   padding: 50px;
 }
-.planea-tu-viaje .informacion button {
+body .informacion button {
   font-family: "teko";
   color: white;
   border: solid white 2px;
 }
-.planea-tu-viaje .informacion button:hover {
+body .informacion button:hover {
   color: black;
+  background-color: white;
 }
-.planea-tu-viaje .informacion .imput-img {
+body .informacion .imput-img {
   display: flex;
   justify-content: center;
 }
-.planea-tu-viaje .informacion .imput-img #valor1 {
+body .informacion .imput-img #valor1 {
   width: 100px;
   border: solid white;
   margin: 10px;
 }
-.planea-tu-viaje .informacion .imput-img img {
+body .informacion .imput-img img {
   margin: 10px;
   border: solid white;
   border-radius: 30px;
 }
-.planea-tu-viaje .informacion .reservar {
+body .informacion .reservar {
   display: flex;
   justify-content: center;
   height: 40px;
 }
-.planea-tu-viaje .mapa {
-  background-image: url(../img/fondo\ planea.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body .mapa {
   display: flex;
   justify-content: center;
   margin: 30px;
   padding: 30px;
+}
+body footer {
+  display: flex;
+  font-family: "JosefinSans";
+  font-weight: 200;
+  font-size: small;
+  text-align: center;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  .contenedor-items {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=planea-tu-viaje.css.map */

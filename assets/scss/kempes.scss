@@ -1,5 +1,8 @@
 body{
-        background-color: black;
+        background-image: url(../img/back\ fotos.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
             
     header{
         display: flex;
@@ -15,7 +18,10 @@ body{
             
         }
         .navbar{
-            background-color: black;
+            background-image: url(../img/navbar.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             width: 100%;
         }
         .navbar-collapse{
@@ -28,26 +34,20 @@ body{
             font-weight: 500;
         }
         .nav-link:hover{
-            color: yellow;
+            color: rgb(1, 50, 32);
         }
     }
     .title h1{
-        background-color: black;
+        background-color:rgb(1, 50, 32);
         font-family: "teko";
         font-weight: 700;
         font-size: larger;
         color: white;
-        border: solid yellow;
         text-align: center;
         margin: 20px;
-        height: 30px;
     }
             
     .kempes{
-            background-image: url(../img/Kempes.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
             display: flex;
             justify-content: space-around;
             
@@ -60,7 +60,8 @@ body{
             flex-direction: column;
             height: 500px;
             color: black;
-            border: solid yellow 2px;
+            background-color: rgb(178, 132, 190);
+            border: solid rgb(32, 114, 175);
             font-family: "JosefinSans";
             font-weight: 300;
             text-align: center;
@@ -107,24 +108,29 @@ body{
         }
     }
     .kempes1{
-        background-image: url(../img/Kempes.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         display: flex;
         justify-content: center;
 
             .reservas{
             display: flex;
-            color: white;
+            color: black;
             font-family: "JosefinSans";
             font-weight: 600;
-            border: solid yellow 2px;
+            background-color: rgb(178, 132, 190);
             width: 800px;
             margin: 30px;
             padding: 20px;
             align-self: flex-end;
+            border: solid rgb(32, 114, 175);
         }
+    }
+footer{
+    display: flex;
+    font-family:"JosefinSans";
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
     }
 }
 @media (max-width: 600px){
@@ -133,17 +139,14 @@ body{
         display: flex;
         flex-direction: column;
         margin: 30px;
-        background-color: black;
     }
     .formulario{
         flex-direction: column;
         margin: 20px;
-        background-color: black;
     }
     .reservas{
         flex-direction: column;
         height: 600px;
-        background-color: black;
     }
     
 }

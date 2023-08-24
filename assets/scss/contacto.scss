@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    background-image: url(../img/back\ fotos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     header{
         display: flex;
         justify-content:space-between;  
@@ -14,7 +17,10 @@ body{
             
         }
         .navbar{
-            background-color: black;
+            background-image: url(../img/navbar.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             width: 100%;
         }
         .navbar-collapse{
@@ -27,7 +33,7 @@ body{
             font-weight: 500;
         }
         .nav-link:hover{
-            color: yellow;
+            color: rgb(1, 50, 32);
         }
     }
     .title-contacto h1{
@@ -36,10 +42,9 @@ body{
         font-weight: 700;
         font-size: larger;
         color: white;
-        border: solid yellow;
+        background-color: rgb(1, 50, 32);
         text-align: center;
         margin: 20px;
-        height: 30px;
     }
     .contacto{
         display: flex;
@@ -47,44 +52,47 @@ body{
 
         .whatsapp{
             display: flex;
-            width: 300px;
-            height: 400px;
-            background-color: green;
             margin: 20px;
             padding: 10px;
 
         }
         .instagram{
             display: flex;
-            width: 300px;
-            height: 400px;
-            background-color: pink;
             margin: 20px;
             padding: 10px;
 
         }
         .gmail{
             display: flex;
-            width: 300px;
-            height: 400px;
-            background-color: orangered;
             margin: 20px;
             padding: 10px;
 
         }
         .facebook{
             display: flex;
-            width: 300px;
-            height: 400px;
-            background-color:blue;
             margin: 20px;
             padding: 10px;
 
         }
     }
+footer{
+    display: flex;
+    font-family:"JosefinSans";
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+}
 }
 @media (max-width: 600px){
     .contacto{
         flex-direction: column;
+        padding: 40px;
+    }
+}
+@media (max-width: 768px ){
+    .contacto{
+        flex-direction: column;
+        
     }
 }
